@@ -1,0 +1,4 @@
+sudo apt-get install tesseract-ocr-por
+pip3 install pdf2image
+pip3 install regex
+pip3 install pytesseract
