@@ -84,7 +84,7 @@ def extract_questions_pdf(filename, year, subject):
                 d = j.split("(D) ")[-1].split("\n\n")[0]
 
                 answers = [a, b, c, d]
-                question = group + "\n" + main + "\n" + question
+                question = intro_grupo + "\n" + main + "\n" + question
                 save_json(year, subject, question, answers)
 
                # print("\nOption A: (A)", j.split("(A) ")[-1].split("(B)")[0])
